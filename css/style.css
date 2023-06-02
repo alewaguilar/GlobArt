@@ -1,0 +1,208 @@
+body{
+    color:#1C1C1C;
+    font-family: 'Lexend', sans-serif;
+}
+
+.titulo{
+    font-size: 58px;
+    font-weight: 700px;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 40px;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+header .bg-light{
+	background-color: transparent !important;
+}
+
+#header-copy{
+    text-align: center;
+    background-color: #1C1C1C;
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 21px;
+    padding: 20px 0;
+}
+
+#header-copy img{
+    padding: 20px 0;
+}
+
+#artistas-inicio{
+    text-align: center;
+}
+
+#artistas-inicio img{
+    width: 70%;
+}
+
+.texto-inicio h3{
+    font-size: 45px;
+    text-align: left;
+}
+
+.texto-inicio h5{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.texto-inicio p{
+    margin-top: 25px;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.texto-inicio a{
+    background-color:#F35B1B;
+    color: #fff;
+    margin-top: 30px;
+    padding: 7px 20px;
+}
+
+#galeria-inicio{
+    text-align: center;
+}
+
+#galeria-inicio img{
+    padding: 7px 0;
+}
+
+#galeria-inicio a{
+    background-color:#6955A5;
+    color: #fff;
+    margin-top: 45px;
+    padding: 7px 20px;
+}
+
+footer{
+    background-color: #1C1C1C;
+    color: #F8F8F8;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 90px;
+}
+
+footer img{
+    width: 15%;
+    padding: 10px 0;
+}
+
+footer p{
+    font-weight:lighter;
+    font-size: 12px;
+}
+
+footer p span{
+    font-size: 12px;
+}
+
+.titulo-artistas{
+    text-align: left;
+    font-weight: 700px;
+    font-size: 58px;
+    padding: 20px 0;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+#buscador-artistas h5{
+    text-align: center;
+    font-weight: 900px;
+    font-size: 25px;
+    color: #fff;
+    background-color: #F35B1B;
+    padding: 7px 0;
+}
+
+#buscador-artistas p{
+    color: #B8B8B8;
+    font-size: 21px;
+    margin-top: 40px;
+}
+
+.titulo-galeria{
+    text-align: left;
+    font-weight: 700px;
+    font-size: 58px;
+    padding: 20px 0;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+#buscador-galeria h5{
+    text-align: center;
+    font-weight: 900px;
+    font-size: 25px;
+    color: #fff;
+    background-color: #F9B600;
+    padding: 7px 0;
+}
+
+#buscador-galeria p{
+    color: #B8B8B8;
+    font-size: 21px;
+    margin-top: 40px;
+}
+
+#obra-semanal{
+    text-align: center;
+}
+
+#obra-semanal img{
+    padding-top: 40px;
+}
+
+#obra-semanal p{
+    color:#1C1C1C;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+#obra-semanal p span{
+    color:#1C1C1C;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#obra-semanal a{
+    background-color:#6955A5;
+    color: #fff;
+    margin: 25px 0;
+    padding: 7px 20px;
+}
+
+#van-gogh{
+	padding: 45px 0;
+    text-align: center;
+}
+
+#van-gogh h2{
+    text-align: left;
+    padding: 15px 0;
+}
+
+#van-gogh h3{
+	padding: 20px 0;
+	text-align: center;
+    font-size: 20px;
+}
+
+.btn-amarillo{
+    background-color: #F9B600;
+    color: #fff;
+    margin: 25px 0;
+    padding: 7px 20px;
+    margin-top: 5px;
+}
+
+#menu-artistas a{
+    background-color: #6955A5;
+    color: #fff;
+    margin: 25px 0;
+    padding: 7px 20px;
+    margin-top: 5px;
+}
+
+
