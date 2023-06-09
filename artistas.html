@@ -7,14 +7,14 @@
 <title>Artistas | GlobArt</title>
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/bootstrap-custom.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
 <link href="css/style.css" rel="stylesheet">
 <link href="img/favicon.png" rel="icon">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<!--SEO-->
+<meta name=”description” content=”Artistas de GlobArt encontrarás información en un mismo lugar sobre los diferentes artistas que marcaron época en el arte.”>
+<meta name=”keywords” content=”artistas, museo virtual, arte, GlobArt, Salvador Dalí, información artistas, Pablo Picasso, Leonardo Da vinci, artistas antiguos, historia del arte ”>
+
 </head>
 
 <body>
@@ -23,12 +23,12 @@
         <nav class="navbar bg-light fixed-top">
             <div class="container-fluid">
               <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                <span class="navbar-toggler-icon"></span>
-              </button>
+                <i class="las la-bars"></i>             
+             </button>
               <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">GlobArt</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    <h3 class="offcanvas-title" id="offcanvasNavbarLabel"><b>GlobArt</b></h3>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
                   <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
@@ -36,25 +36,25 @@
                       <a class="nav-link active" aria-current="page" href="artistas.html">Artistas</a>
                     </li>
                     <li class="nav-item">
-                          <a class="nav-link" href="#">Movimientos</a>
+                          <a class="nav-link" href="movimientos.html">Movimientos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Galería.html">Galería</a>
+                        <a class="nav-link" href="galeria.html">Galería</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Museos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Tienda</a>
+                        <a class="nav-link" href="tienda.html">Tienda</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Registrar ahora</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Newsletter</a>
+                        <a class="nav-link" href="newsletter.html">Newsletter</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="about-us.html">About Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Ayuda</a>
@@ -70,20 +70,62 @@
           </nav>
 
           <section id="header-copy">
-          <a href="index.html"><img src="img/globart-logo.png" alt="globart-logo" width="170px"></a>
-          <br>
-          <a href="artistas.html" target="_blank">Artistas</a>
-          <a href="#" target="_blank">Movimientos</a>
-          <a href="Galería.html" target="_blank">Galería</a>
+            <div class="container position-relative">
+                <div class="header-iconos">
+                    <i class="las la-shopping-cart float-end-"></i>
+                    <i class="lar la-user float-end-"></i>
+                </div>
+                <a href="index.html"><img src="img/globart-logo.png" alt="globart-logo" width="170px"></a>
+                <br>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="artistas.html" target="_blank">Artistas</a></li>
+                    <li class="list-inline-item"><a href="movimientos.html" target="_blank">Movimientos</a></li>
+                    <li class="list-inline-item"><a href="galeria.html" target="_blank">Galería</a></li>
+                </ul>
+            </div>
         </section>
     </header>
 
+    <section id="inicio-artistas">
+        <div class="container">
+            <h1 class="titulo-pages">Artistas</h1>
+        </div>
+    </section>
+
+    <section id="frase-artistas">
+        <div class="container-fluid g-0">
+            <h5>Explora más de 10,000 artistas</h5>
+        </div>
+    </section>
+
     <section id="buscador-artistas">
         <div class="container">
-            <h1 class="titulo-artistas">Artistas</h1>
-            <h5>Explora más de 10,000 artistas</h5>
+            <i class="las la-search float-end"></i>
             <p>Busca un artista</p>
             <hr>
+        </div>
+    </section>
+
+    <section id="pablo-picasso">
+        <div class="container">
+            <div class="row">
+                <article class="col-lg-5 col-sm-12 col-12">
+                    <img src="img/pablo_picasso.jpg" alt="pablo-picasso" class="img-fluid">
+                </article>
+
+                <article class="col-lg-6 col-sm-12 col-12">
+                <div class="pablo-info">
+                    <h2>Pablo Picasso</h2>
+                    <h3>25.10.1881 - 08.04.1973</h3>
+                    <p>Se le considera uno de los fundadores del cubismo, un co-inventor del collage, el inventor de la escultura construida, y el pintor más prolífico del mundo.<br>
+                        En una carrera de 78 años, Picasso fue protagonista y creador inimitable de las diversas corrientes que revolucionaron las artes plásticas del siglo XX, desde el cubismo hasta la escultura neofigurativa, del grabado a la escenografía para ballets.<br>
+                        <b>Tome un viaje a través de la vida de uno de los artistas más famosos de la historia.</b></p>
+                    <div class="text-center">
+                    <a href="#" class="btn btn-start">Leer Más</a>
+                    </div>
+                </div>
+                </article>
+            </div>
         </div>
     </section>
 
@@ -91,57 +133,55 @@
         <div class="container">
         <div class="row">
             <article class="col-lg-3 col-sm-3 col-12">
-                <img src="img/frida.png" alt="frida" class="img-fluid">
+                <img src="img/frida-new.png" alt="frida" class="img-fluid">
             </article>
 
             <article class="col-lg-3 col-sm-3 col-12">
-                <img src="img/vincent.png" alt="vincent" class="img-fluid">
+                <img src="img/vincent-new.png" alt="vincent" class="img-fluid">
             </article>
 
             <article class="col-lg-3 col-sm-3 col-12">
-                <img src="img/monet.png" alt="monet" class="img-fluid">
+                <img src="img/monet-new.png" alt="monet" class="img-fluid">
             </article>
 
             <article class="col-lg-3 col-sm-3 col-12">
-                <img src="img/artista_1.png" alt="artista" class="img-fluid">
+                <img src="img/davinci-new.png" alt="artista" class="img-fluid">
             </article>
         </div>
+        <div class="text-center">
         <a href="#" class="btn btn-start">Explora Más</a>
+        </div>
         </div>
     </section>
 
     <section id="links-paginas">
         <div class="container-fluid p-0">
-            <div class="row">
-                <article class="col-lg-4 col-sm-4 col-12">
-                    <img src="img/museos.jpg" alt="moma" class="img-fluid">
+            <div class="row g-0">
+                <article class="col-lg-4 col-sm-12">
+                    <img src="img/museos.png" alt="moma" class="img-fluid">
                 </article>
-                <article class="col-lg-4 col-sm-4 col-12">
-                    <img src="img/artistas.jpg" alt="artistas" class="img-fluid">
+                <article class="col-lg-4 col-sm-12">
+                    <img src="img/movimientos.png" alt="movimientos" class="img-fluid">
                 </article>
-                <article class="col-lg-4 col-sm-4 col-12">
-                    <img src="img/tienda.jpg" alt="tienda" class="img-fluid">
+                <article class="col-lg-4 col-sm-12">
+                    <img src="img/tienda.png" alt="tienda" class="img-fluid">
                 </article>
             </div>
         </div>
     </section>
 
-
-
-
-
-
-
-
-
-
     <footer>
 		<div class="container">
-			<img src="img/variacion-blanco.png" alt="logo-blanco" class="img-fluid">
-			<img src="img/logo-burbuja.png" alt="logo-burbuja" class="img-fluid">
-			<p> Legal Notice  Privacy Policy  Cookies  Credits  Copyrights</p>
-			<p><span>© 2023 GlobArt</span></p>
-		</div>
+            <img src="img/logo-cuadrado.png" alt="logo-blanco" class="img-fluid" width="100px">
+			<img src="img/logo-burbuja.png" alt="logo-burbuja" class="img-fluid float-md-end" width="90px">
+            <ul class="list-inline">
+                <li class="list-inline-item">Legal Notice </li>
+                <li class="list-inline-item">Privacy policy</li>
+                <li class="list-inline-item">Cookies</li>
+                <li class="list-inline-item">Credits</li>
+                <li class="list-inline-item">Copyrights</li>
+            </ul>
+            <p class="text-center"><span>© 2023 GlobArt</span></p>
 	</footer>
 
 	<script src="js/jquery.min.js"></script>
