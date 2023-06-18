@@ -467,6 +467,7 @@ footer p span{
 	font-weight: 800;
 	padding-top: 200px;
 	padding-bottom: 25px;
+    font-family: "EudoxusSans-extrabold";
 }
 
 #newsletter input {
@@ -474,12 +475,15 @@ footer p span{
 	border-top: none;
 	border-left: none;
 	border-right: none;
+    font-family: "EudoxusSans-light";
+    margin-bottom: 30px;
 }
 
 #newsletter h4 {
 	color: white;
 	font-size: 20px;
 	font-weight: 300;
+    font-family: "EudoxusSans-light";
 }
 
 #newsletter img {
@@ -502,6 +506,7 @@ footer p span{
 	margin-top: 200px;
 	padding: 8px 25px;
 	border-radius: 45px;
+    font-family: "EudoxusSans-regular";
 }
 
 #newsletter .icons{
