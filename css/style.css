@@ -76,22 +76,18 @@ header .bg-light{
     text-decoration: none;
 }
 
-	/*height: posicion iconos*/
 #header-copy i{
     color: #F8F8F8;
     margin-top: 1%;
     font-size: 32px;
+    margin-left: -25px;
+
 }
 
 .header-iconos{
     position:absolute;
-    right:0px;
-}
-
-
-
-#icons-header i{
-    color: #fff;
+    right: 0px;
+    margin-top: 8px;
 }
 
 #artistas-inicio img{
@@ -287,20 +283,23 @@ footer p span{
 }
 
 #van-gogh{
-	padding: 45px 0;
+	padding: 30px 0;
     text-align: center;
 }
 
+#van-gogh img{
+    margin: 20px 0;
+}
+
 #van-gogh h2{
-    font-family: "EudoxusSans-bold";
-    text-align: left;
-    padding: 15px 0;
+    font-family: 'FoundersGrotesk-semibold';
+    font-size: 40px;
 }
 
 #van-gogh p{
-	padding: 20px 0;
+	padding: 10px 0;
 	text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     font-family: "EudoxusSans-bold";
 }
 
@@ -318,14 +317,11 @@ footer p span{
     background-color: #1C1C1C;
 }
 
-#menu-artistas a{
-    background-color: #6955A5;
-    color: #fff;
-    margin: 25px 0;
-    padding: 7px 20px;
-    margin-top: 5px;
-    font-family: "EudoxusSans-regular";
-    border-radius: 50px; 
+#menu-artistas h2{
+    font-family: 'FoundersGrotesk-semibold';
+    font-size: 40px;
+    text-align: center;
+    padding: 30px 0;
 }
 
 #links-paginas{
@@ -438,7 +434,7 @@ footer p span{
     font-size: 14px;
 }
 
-#bestsellers a{
+.boton-tienda a{
     background-color: #F35B1B;
     color: #fff;
     margin: 25px 0;
@@ -448,8 +444,9 @@ footer p span{
     border-radius: 50px; 
 }
 
-#bestsellers a:hover{
+.boton-tienda a:hover{
     background-color: #1C1C1C;
+    color: #fff;
 }
 
 #newsletter {
@@ -508,7 +505,6 @@ footer p span{
 }
 
 #newsletter .icons{
-	
 	font-size: 25px;
 	background-color: white;
 	color: #6955A5;
@@ -522,7 +518,7 @@ footer p span{
 }
 
 #menu-artistas{
-    padding: 40px;
+    padding: 40px 0;
 }
 
 #menu-artistas a{
@@ -543,6 +539,10 @@ footer p span{
     text-align: left;
 }
 
+.renacimineto-texto{
+    font-family: 'FoundersGrotesk-semibold';
+}
+
 #galeria-renacimineto a{
     background-color: #F9B600;
     color: #fff;
@@ -557,6 +557,11 @@ footer p span{
     background-color: #1C1C1C;
 }
 
+#realismo{
+    font-family: 'FoundersGrotesk-semibold';
+    padding: 40px 0;
+}
+
 #realismo a{
     background-color: #F35B1B;
     color: #fff;
@@ -569,6 +574,10 @@ footer p span{
 
 #realismo a:hover{
     background-color: #1C1C1C;
+}
+
+#galeria-surrealismo{
+    margin-bottom: 40px;
 }
 
 #galeria-surrealismo a{
@@ -592,4 +601,400 @@ footer p span{
 #galeria-surrealismo{
     margin-top: 30px;
 }
+
+#bienvenida{
+    background-image: url("../img/about-us.png");
+    background-size: cover;
+	background-position: top center;
+    height: 100vh;
+    color: #fff;
+}
+
+#bienvenida h2{
+    font-family: 'FoundersGrotesk-bold';
+    font-size: 70px;
+    text-align: center;
+    padding-top: 22%;
+}
+
+#bienvenida p{
+    font-family: 'EudoxusSans-regular';
+    font-size: 22px;
+    text-align: center;
+}
+
+#slogan{
+    padding: 70px;
+}
+
+#slogan h2{
+    text-align: center;
+    font-family: 'FoundersGrotesk-semibold';
+    font-size: 60px;
+    padding: 45px 0;
+}
+
+#slogan p{
+    font-family: 'EudoxusSans-bold';
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#slogan i{
+    font-size: 25px;
+	background-color: #1C1C1C;
+	color: #F8F8F8;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 100%;
+	margin-bottom: 5px;
+}
+
+#frase-shop{
+    text-align: center;
+    font-family: "EudoxusSans-bold";
+    font-size: 22px;
+    color: #fff;
+    background-color: #F39CBF;
+    padding: 7px 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.texto-producto{
+    margin-top: 22%;
+}
+
+.texto-producto h4{
+    font-family: "EudoxusSans-bold";
+}
+
+.texto-producto p{
+    font-family: "EudoxusSans-light";
+}
+
+.texto-producto p span{
+    font-family: "EudoxusSans-medium";
+    color:#F35B1B;
+}
+
+.precio-producto{
+    margin-top: 35%;
+}
+
+.precio-producto h5{
+    font-family: "EudoxusSans-bold";
+}
+
+.precio-producto p{
+    font-family: "EudoxusSans-light";
+}
+
+#checkout{
+    padding: 40px 0;
+}
+
+#checkout h5{
+    text-align: center;
+    font-family: "EudoxusSans-bold";
+    font-size: 25px
+
+}
+
+#checkout a{
+    background-color: #F35B1B;
+    color: #fff;
+    margin: 25px 0;
+    padding: 7px 20px;
+    margin-top: 40px;
+    font-family: "EudoxusSans-regular";
+    border-radius: 50px;
+}
+
+#checkout a:hover{
+    background-color: #1C1C1C;
+    color:#fff;
+}
+
+#cart_menu_num {
+    position: absolute;
+    top: 0;
+    left: 2%;
+    background: red;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 2px;
+    font-family: "EudoxusSans-medium";
+    font-size: 10px;
+  }
+
+  #checkout p{
+    font-family: "EudoxusSans-light";
+    font-size: 14px;
+  }
+
+  #checkout p span{
+    font-family: "EudoxusSans-bold";
+  }
+
+  .capa-hover{
+    position: absolute;
+    background-color: rgba(0,0,0,0.25);
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    color:#fff;
+    display: grid;
+    align-content: center;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .capa-hover a{
+    font-size: 52px;
+    font-family: 'FoundersGrotesk-semibold';
+    text-decoration: none;
+  }
+
+  .capa-hover:hover{
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+
+  .capa-hover-icon{
+    position: absolute;
+    background-color: rgba(0,0,0,0.25);
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    color:#fff;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .capa-hover-icon a{
+    background-color: #1C1C1C;
+    color: #fff;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 100%;
+    margin-bottom: 5px;
+    font-size: 24px;
+  }
+  .capa-hover-icon a:hover{
+    background-color: #F35B1B;
+    transition: all 0.3s ease-in-out;
+}
+
+  .capa-hover-icon:hover{
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+
+#comunidad input {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+#comunidad p {
+	text-align: start;
+	margin-bottom: 5px;
+    font-size: 11px;
+    font-family: "EudoxusSans-regular";
+}
+
+#comunidad {
+	text-align: center;
+}
+
+#comunidad .btn.btn-outline-dark {
+	margin-top: 5px;
+	border-radius: 45px; 
+	padding: 10px 115px;
+    font-family: "EudoxusSans-regular";
+}
+
+#comunidad li {
+	padding: 0px;
+	
+}
+
+#iniciar_sesion {
+	margin-top: 7px;
+	padding: 10px 20px;
+	border-bottom: 0px;
+	border-radius: 45px;
+	background-color: #F39CBF;
+    font-family: "EudoxusSans-regular";
+	width: max-content !important;
+}
+
+#iniciar_sesion:hover{
+    background-color: #1C1C1C;
+    color:#fff;
+}
+
+#ini_sesion {
+	text-align: center !important;
+}
+
+#comunidad h6 {
+	font-size: 10px;
+    font-family: "EudoxusSans-light";
+}
+
+#comunidad h4 {
+	font-size: 12px;
+	padding-top: 20px;
+    font-family: "EudoxusSans-light";
+}
+
+#comunidad h5 {
+	font-size: 12px;
+	color: #F39CBF;
+	margin-bottom: 10px;
+    font-family: "EudoxusSans-bold";
+}
+
+#comunidad hr{
+	color: black;
+	opacity: 1;
+}
+
+#o {
+	font-size: 25px !important;
+	font-weight: 200;
+	
+}
+
+#comunidad .separador{
+	margin: 35px 0; 
+}
+
+.no-padding {
+	padding: 0px;
+}
+
+#museo-francia h2{
+	margin-top: 30px;
+    font-family: "EudoxusSans-medium";
+    font-size: 25px;
+}
+
+#galeria-francia {
+    margin: 20px 0;
+}
+
+#galeria-francia img{
+    box-shadow: 0px 0px 20px 2px #1C1C1C;
+    margin: 25px 0;
+    margin-bottom: 50px;
+}
+
+#moma h2{
+	text-align: right;
+    font-family: "EudoxusSans-medium";
+    font-size: 25px;
+}
+
+#moma-back {
+    background-image: url("../img/moma-back.webp");
+    background-size: cover;
+	background-position: top center;
+    height: 100vh;
+    color: #fff;
+}
+
+#moma-back p{
+    font-family: 'EudoxusSans-regular';
+    font-size: 22px;
+    text-align: center;
+    padding-top: 22%;
+}
+
+#moma-back a{
+    background-color: #6955A5;
+    color: #fff;
+    margin: 25px 0;
+    padding: 7px 20px;
+    margin-top: 40px;
+    font-family: "EudoxusSans-regular";
+    border-radius: 50px; 
+}
+
+#moma-back a:hover{
+    background-color: #fff;
+    color: #1C1C1C;
+}
+
+#moma-gallery {
+    margin: 20px 0;
+    margin-bottom: 50px;
+}
+
+#moma-gallery img{
+    box-shadow: 0px 0px 20px 2px #1C1C1C;
+    margin: 25px 0;
+}
+
+#louvre{
+    background-image: url("../img/louvre.png");
+    background-size: cover;
+	background-position: top center;
+    height: 100vh;
+    color: #fff;
+}
+
+#louvre p{
+    font-family: 'EudoxusSans-regular';
+    font-size: 22px;
+    text-align: center;
+    padding-top: 17%;
+}
+
+#louvre a{
+    background-color: #F9B600;
+    color: #fff;
+    margin: 25px 0;
+    padding: 7px 20px;
+    margin-top: 40px;
+    font-family: "EudoxusSans-regular";
+    border-radius: 50px; 
+}
+
+#louvre a:hover{
+    background-color: #fff;
+    color: #1C1C1C;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
