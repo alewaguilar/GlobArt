@@ -4,21 +4,20 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title> Movimientos | GlobArt</title>
+<title> Shopping Cart | GlobArt</title>
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/bootstrap-custom.css" rel="stylesheet">
 <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+<link href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" rel="stylesheet" />
 <link href="css/style.css" rel="stylesheet">
 <link href="img/favicon.png" rel="icon">
 
 <!--SEO-->
-<meta name=”description” content=”Movimientos de GlobArt encontrarás los diferente s movimientos que conforman la historia del arte.”>
-<meta name=”keywords” content=”galería, movimientos, galería virtual, museo virtual, arte, GlobArt, artistas, interactivo, Cubismo, Surrealismo, Pop Art, Realismo, Renacimiento, Barroco, Impresionismo”>
-
+<meta name=”description” content=”Carrito de compra de GlobArt encontrarás la tienda virtual  del museo virtual GlobArt.”>
+<meta name=”keywords” content=”tienda, tienda virtual, compra, carrito, carrito de compra, compra virtual, arte, GlobArt, compra en línea”>
 </head>
 
 <body>
-
     <header>
         <nav class="navbar bg-light fixed-top">
             <div class="container-fluid">
@@ -36,7 +35,7 @@
                       <a class="nav-link font-menu" href="artistas.html">Artistas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="movimientos.html">Movimientos</a>
+                        <a class="nav-link" href="movimientos.html">Movimientos</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="galeria.html">Galería</a>
@@ -54,7 +53,7 @@
                       <a class="nav-link" href="tienda.html">Tienda</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="carrito-de-compras.html">Shopping Cart</a>
+                      <a class="nav-link active" href="carrito-de-compras.html">Shopping Cart</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="newsletter.html">Newsletter</a>
@@ -72,7 +71,9 @@
           <section id="header-copy">
             <div class="container position-relative">
                 <div class="header-iconos">
-                    <i class="las la-shopping-cart float-end-"></i>
+                    <i class="las la-shopping-cart float-end-">
+                      <span id="cart_menu_num" data-action="cart-can" class="badge rounded-circle">1</span>
+                    </i>
                     <i class="lar la-user float-end-"></i>
                 </div>
                 <a href="index.html"><img src="img/globart-logo.png" alt="globart-logo" width="170px"></a>
@@ -86,124 +87,118 @@
         </section>
     </header>
 
-    <section id="movimientos-titulo">      
-      <div class="container">
-        <h1 class="titulo-pages">Movimientos</h1>
-        <div class="row">
-        <article class="col-lg-8 col-sm-10 col-12">
-          <img src="img/renacimiento.jpg" alt="renacimiento-one" class="img-fluid">
-        </article>
 
-          <article class="col-lg-4 col-sm-4 col-12">
-            <div class="renacimineto-texto">
-              <h1>Renacimiento</h1>
-              <h1>1400-1550</h1>
-            </div>
-          </article>		
-        </div>
-      </div>
-    </section>
-  
-    <section id="galeria-renacimineto">
-      <div class="container-fluid">
-        <div class="row">
-          <article class="col-lg-4 col-sm-6 col-12">
-            <img src="img/renacimiento-two.png" alt="renacimineto-two" class="img-fluid">
-          </article>
-          <article class="col-lg-4 col-sm-6 col-12">
-            <img src="img/renacimiento-three.png" alt="renacimineto-three" class="img-fluid">
-          </article>
-          <article class="col-lg-4 col-sm-6 col-12">
-            <img src="img/renacimiento-four.png" alt="renacimineto-four" class="img-fluid">
-          </article>
-        </div>
-        <div class="text-center">
-        <a href="#" class="btn btn-start">Ver más</a>
-        </div>
-      </div>
-    </section>
-  
-    <section id="realismo">
+
+    <section id="inicio-tienda">
       <div class="container">
-        <h1><b>Realismo 1848-1900</b></h1>
-        <div class="row">
-          <article class="col-lg-4 col-sm-6 col-12">
-            <img src="img/realismo-one.png" alt="realismo-one" class="img-fluid">
-          </article>
-          <article class="col-lg-4 col-sm-6 col-12">
-            <img src="img/realismo-two.png" alt="realismo-two" class="img-fluid">
-          </article>
-          <article class="col-lg-4 col-sm-6 col-12">
-            <img src="img/realismo-three.png" alt="realismo-three" class="img-fluid">
-          </article>
-        </div>
-        <div class="text-center">
-        <a href="#" class="btn btn-start">Ver más</a>
-        </div>
+          <h1 class="titulo-pages">Carrito de Compras</h1>
       </div>
     </section>
-    
-    <section id="surrealismo">
+
+    <section id="nav-tienda">
+      <div class="container">
+          <ul class="list-inline">
+              <li class="list-inline-item">Promocionales</li>
+              <li class="list-inline-item">Libros</li>
+              <li class="list-inline-item">Impresos</li>
+              <li class="list-inline-item">Artistas</li>
+              <li class="list-inline-item">Regalos</li>
+              <li class="list-inline-item">Best-Sellers</li>
+          </ul>
+      </div>
+    </section>
+
+    <section id="frase-shop">
       <div class="container-fluid g-0">
-        <img src="img/surrealismo-one.png" alt="surrealismo-one" class="img-fluid">
+          <h5>Hazte parte de nuestra comunidad en línea y obtén (10%) en tu primera compra.</h5>
       </div>
     </section>
-  
-    <section id="galeria-surrealismo">
+
+    <section id="producto">
       <div class="container">
         <div class="row">
-          <article class="col-lg-4 col-sm-6 col-12">
-            <img src="img/surrealismo-two.png" alt="surrealismo-two" class="img-fluid">
+
+          <article class=" col-lg-4 col-sm-12">
+            <a href="img/matisse-print.webp" data-fancybox="gallery"><img src="img/matisse-print.webp" alt="henri-matisse-the-open-window-print" class="img-fluid"></a>
           </article>
-          <article class="col-lg-4 col-sm-6 col-12">
-            <img src="img/surrealismo-three.png" alt="surrealismo-three" class="img-fluid">
+
+          <article class=" col-lg-4 col-sm-12">
+            <div class="texto-producto">
+            <h4>Henri Matisse<br>The Open Window Collioure<br>Framed Print</h4>
+            <p>Item: 804003-804003<br>En stock y listo para enviar</p>
+            <p>$7.95 Tarifa de envío estándar plana disponible.</p>
+            <p><span>Envío gratis para miembros de la<br>comunidad en compras arriba de $35</span></p>
+            </div>
           </article>
-          <article class="col-lg-4 col-sm-6 col-12">
-            <img src="img/surrealismo-four.png" alt="surrealismo-four" class="img-fluid">
+
+          <article class=" col-lg-4 col-sm-12">
+            <div class="precio-producto">
+            <p>Precio de Artículo</p>
+            <h5>L 8,000</h5>
+            <p>Cantidad</p>
+            <select class="selectpicker" data-width="fit" id="cantidadNro">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+            <p><span>TOTAL</span></p>
+            <h5>L 8,000</h5>
+            </div>
           </article>
-      </div>
-      <div class="text-center">
-        <a href="#" class="btn btn-start">Ver más</a>
-      </div>
+
+          <article class="col-lg-9 col-sm-9 col-12">
+            <div class="row fila1"> 
+              <article class="col-lg-2 col-sm-2 col-12">
+                  <a href="img/shop-one.webp" data-fancybox="gallery"><img src="img/shop-one.webp" alt="shop-one" class="img-fluid" width="100px"></a>
+              </article>
+              <article class="col-lg-2 col-sm-2 col-12">
+                  <a href="img/shop-two.webp" data-fancybox="gallery"><img src="img/shop-two.webp" alt="shop-two" class="img-fluid" width="100px"></a>
+              </article>
+              <article class="col-lg-2 col-sm-2 col-12">
+                  <a href="img/shop-three.webp" data-fancybox="gallery"><img src="img/shop-three.webp" alt="shop-three" class="img-fluid" width="100px"></a>
+              </article>
+          </div>
+
+
+        </div>
+        <hr>
       </div>
     </section>
 
-    <section id="links-paginas">
-      <div class="container-fluid p-0">
-          <div class="row g-0">
+    <section id="checkout">
+      <div class="container">
+        <h5>Resumen de Orden</h5>
+            <div class="row mt-5">
 
-              <article class="col-lg-4 col-sm-12">
-                  <div class="card">
-                      <img src="img/museos.png" alt="moma" class="img-fluid">
-                      <div class="capa-hover">
-                      <a href="museos.html" target="_blank">Museos</a>
-                      </div>
-                  </div>
+              <article class="col-lg-4 col-sm-6 col-12 offset-lg-4" style="border: 1px solid #000; padding:10px;">
+                  <div class="row">
 
-              </article>
+                    <article class="col-lg-6 col-sm-6 col-12">
+                      <p>Artículo</p>
+                      <p>Costo envío</p>
+                      <p>Impuesto ISV</p>
+                      <p>Total Estimado</p>
+                    </article>
+    
+                    <article class="col-lg-6 col-sm-6 col-12">
+                      <div class="text-center">
+                      <p><span>L 8,000</span></p>
+                      <p><span>L 195.19</span></p>
+                      <p><span>15%</span></p>
+                      <p><span>L 9,424.47</span></p>
+                    </div>
+                    </article>
 
-              <article class="col-lg-4 col-sm-12">
-                  <div class="card">
-                      <img src="img/galeria.png" alt="galeria" class="img-fluid">
-                      <div class="capa-hover">
-                      <a href="galeria.html" target="_blank">Galería</a>
-                      </div>
-                  </div>
-              </article>
-
-              <article class="col-lg-4 col-sm-12">
-                  <div class="card">
-                      <img src="img/tienda.png" alt="tienda" class="img-fluid">
-                      <div class="capa-hover">
-                      <a href="tienda.html" target="_blank">Tienda</a>
-                      </div>
                   </div>
               </article>
-
-
-          </div>
+               
+            </div>
+            <div class="text-center">
+            <a href="#" class="btn btn-start">Checkout</a>
+            </div>
       </div>
-  </section>
+    </section>
+
 
 
     <footer>
@@ -222,7 +217,16 @@
     
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
 
+
+    <script>
+        Fancybox.bind('[data-fancybox="gallery"]', {
+        // Your custom options
+      });
+
+    </script>
+    
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-VDX48M0SMS"></script>
 <script>
@@ -233,7 +237,6 @@
   gtag('config', 'G-VDX48M0SMS');
 </script>
 
-    
-
+ 
 </body>
 </html>

@@ -23,7 +23,7 @@
         <nav class="navbar bg-light fixed-top">
             <div class="container-fluid">
               <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-              <span class="navbar-toggler-icon"></span>
+                <i class="las la-bars"></i>             
               </button>
               <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
@@ -33,32 +33,32 @@
                 <div class="offcanvas-body">
                   <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="artistas.html">Artistas</a>
-                    </li>
-                    <li class="nav-item">
-                          <a class="nav-link" href="movimientos.html">Movimientos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="galeria.html">Galería</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Museos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="tienda.html">Tienda</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Registrar ahora</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="newsletter.html">Newsletter</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about-us.html">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Ayuda</a>
-                    </li>
+                        <a class="nav-link font-menu" href="artistas.html">Artistas</a>
+                      </li>
+                      <li class="nav-item">
+                            <a class="nav-link" href="movimientos.html">Movimientos</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link active" href="galeria.html">Galería</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="museos.html">Museos</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="about-us.html">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="inicio-sesion.html">Inicio Sesión</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="tienda.html">Tienda</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="carrito-de-compras.html">Shopping Cart</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="newsletter.html">Newsletter</a>
+                      </li>
                   </ul>
                   <form class="d-flex mt-3" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -70,9 +70,11 @@
           </nav>
 
           <section id="header-copy">
-            <div class="container">
-                <i class="las la-shopping-cart"></i>
-                <i class="lar la-user"></i>
+            <div class="container position-relative">
+                <div class="header-iconos">
+                    <i class="las la-shopping-cart float-end-"></i>
+                    <i class="lar la-user float-end-"></i>
+                </div>
                 <a href="index.html"><img src="img/globart-logo.png" alt="globart-logo" width="170px"></a>
                 <br>
                 <ul class="list-inline">
@@ -148,7 +150,7 @@
         <p>Water Lilies no es el nombre de una sola pintura, sino el nombre de una serie de obras. Durante su vida,<br>Claude Monet vuelve sobre este tema varias veces y pintó más de 250 cuadros de Water Lilies.</p>
         <p><span>Water Lilies son las imágenes más icónicas del impresionismo.</span></p>
         <div class="text-center">
-        <a href="#" class="btn btn-start">Explorar la colección</a>
+        <a href="#" class="btn btn-start">Explorar la Colección</a>
 
         <hr>
     </div>
@@ -159,7 +161,7 @@
         <h2>Vincent Van Gogh</h2>
         <div class="row">
             <article class="col-lg-3 col-sm-3 col-12">
-                <img src="img/gflores.jpg" alt="girasoles" class="img-fluid">
+                <img src="img/g-flores.png" alt="girasoles" class="img-fluid">
             </article>
             <article class="col-lg-9 col-sm-9 col-12">
                 <div class="row fila1"> 
@@ -175,7 +177,7 @@
                 </div>
                 <div class="row">
                     <article class="col-lg-12 col-sm-12">
-                        <img src="img/gaqua.jpg" alt="arbol de almendras" class="img-fluid">
+                        <img src="img/g-aqua.png" alt="arbol de almendras" class="img-fluid">
                     </article>
                 </div>
             </article>
@@ -189,15 +191,36 @@
     <section id="links-paginas">
         <div class="container-fluid p-0">
             <div class="row g-0">
+
                 <article class="col-lg-4 col-sm-12">
-                    <img src="img/museos.png" alt="moma" class="img-fluid">
+                    <div class="card">
+                        <img src="img/museos.png" alt="moma" class="img-fluid">
+                        <div class="capa-hover">
+                        <a href="museos.html" target="_blank">Museos</a>
+                        </div>
+                    </div>
+
                 </article>
+
                 <article class="col-lg-4 col-sm-12">
-                    <img src="img/artistas.png" alt="artistas" class="img-fluid">
+                    <div class="card">
+                        <img src="img/artistas.png" alt="artistas" class="img-fluid">
+                        <div class="capa-hover">
+                        <a href="artistas.html" target="_blank">Artistas</a>
+                        </div>
+                    </div>
                 </article>
+
                 <article class="col-lg-4 col-sm-12">
-                    <img src="img/tienda.png" alt="tienda" class="img-fluid">
+                    <div class="card">
+                        <img src="img/tienda.png" alt="tienda" class="img-fluid">
+                        <div class="capa-hover">
+                        <a href="tienda.html" target="_blank">Tienda</a>
+                        </div>
+                    </div>
                 </article>
+
+
             </div>
         </div>
     </section>
@@ -205,7 +228,7 @@
 
 <footer>
     <div class="container">
-        <img src="img/logo-cuadrado.png" alt="logo-blanco" class="img-fluid" width="100px">
+        <a href="index.html" target="_blank"><img src="img/logo-cuadrado.png" alt="logo-blanco" class="img-fluid" width="100px"></a>
         <img src="img/logo-burbuja.png" alt="logo-burbuja" class="img-fluid float-md-end" width="90px">
         <ul class="list-inline">
             <li class="list-inline-item">Legal Notice </li>
